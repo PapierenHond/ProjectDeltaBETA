@@ -37,7 +37,7 @@
                 // html += '<div> (' + data[i].firstname + ') + " " + (' + data[i].lastname + ')</div>';
                 if(data[i].value == 1) {
                     html += `<div class="col-3">
-                              <div class="mt-1" style="background-color: #28a745; opacity:0.9; margin: 0;">
+                              <div class="mt-1" style="background-color: green; opacity:0.9; margin: 0;">
                                 <div class="row" style="padding: 5px 10px;">
                                   <div class="col-2 d-flex align-items-center justify-content-center">
                                     <h6 class="text-light text-center" style="text-orientation: upright; transform: rotate(270deg);">`+ data[i].roomnr +`</h6>
@@ -51,11 +51,11 @@
                             </div>`;  
                 } else {
                     html += `<div class="col-3">
-                                <div class="mt-1" style="background-color:#C0C0C0; opacity:0.7; margin: 0;">
+                                <div class="mt-1" style="background-color:#C0C0C0; opacity:0.8; margin: 0;">
                                   <div class="row" style="padding: 5px 10px;">
                                       <div class="col-12">
-                                        <h6 class="text-center" style="margin: 0; color: #808080;">`+ data[i].firstname+" "+data[i].insertion+" "+data[i].lastname +`</h6>
-                                        <h6 class="text-center" style="margin: 0; color: #808080;">`+ data[i].function +`</h6>
+                                        <h6 class="text-light text-center" style="margin: 0;">`+ data[i].firstname+" "+data[i].insertion+" "+data[i].lastname +`</h6>
+                                        <h6 class="text-light text-center" style="margin: 0;">`+ data[i].function +`</h6>
                                       </div>
                                   </div>
                                 </div>
